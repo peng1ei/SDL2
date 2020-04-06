@@ -3,5 +3,7 @@ project(imooc)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(imooc main.cpp)
-target_link_libraries(imooc SDL2)
+include(01/CMakeLists.txt)
+
+#add_executable(imooc main.cpp 01/main.cpp)
+#target_link_libraries(imooc SDL2)

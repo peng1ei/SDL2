@@ -42,8 +42,8 @@ int main() {
     }
 
     bool quit = false;
+    SDL_Event event;
     do {
-        SDL_Event event;
         //SDL_WaitEvent(&event);
         SDL_PollEvent(&event);
 
