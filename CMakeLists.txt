@@ -11,6 +11,7 @@ include(05/CMakeLists.txt)
 include(06/CMakeLists.txt)
 include(07/CMakeLists.txt)
 include(08/CMakeLists.txt)
+include(09/CMakeLists.txt)
 
 #add_executable(imooc main.cpp 01/main.cpp)
 #target_link_libraries(imooc SDL2)
